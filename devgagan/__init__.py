@@ -1,5 +1,6 @@
 #devggn
 import asyncio
+import time
 import logging
 from pyromod import listen
 from pyrogram import Client
@@ -21,6 +22,7 @@ app = Client(
     workers=10
 )
 
+botStartTime = time.time()
 pro = Client("ggbot", api_id=API_ID, api_hash=API_HASH, session_string=STRING)
 sex = TelegramClient('sexrepo', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
