@@ -1,10 +1,10 @@
 {
-  "name": "Save Restricted Content Bot master-v1 branch",
-  "description": "Save Restricted Content Bot by Team SPY",
+  "name": "ThTR Bot master-v1 branch",
+  "description": "ThTR Bot by Team Pioneer",
   "logo": "https://lh3.googleusercontent.com/-HPcn7AqepNg/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfknb1BkQiq-8_KUVOYcNAJ4swKivDQ/photo.jpg",
   "keywords": ["python3", "telegram", "MusicBot", "telegram-bot", "pyrogram"],
-  "repository": "https://github.com/devgaganin/save_restricted-content-telegram-bot-repo",
-  "success_url": "https://devgagan.in",
+  "repository": "https://github.com/brucewaynepioneer/thtr",
+  "success_url": "https://example.com",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
@@ -56,7 +56,6 @@
       "value": "52b4a2cf4687d81e7d3f8f2b7bc2943f618e78cb",
       "required": false
     },
-    
     "SUDO_USERS": {
       "description": "Other Admins' IDs (optional)",
       "value": "",
