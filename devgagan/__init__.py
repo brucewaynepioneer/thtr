@@ -1,7 +1,8 @@
+
 #devggn
 import asyncio
-import time
 import logging
+import time
 from pyromod import listen
 from pyrogram import Client
 from config import API_ID, API_HASH, BOT_TOKEN, STRING, MONGO_DB
@@ -36,7 +37,6 @@ async def auto_ping():
             print(f"Error during auto ping: {e}")
 
         await asyncio.sleep(60)
-       # await m.delete() # Wait for 60 seconds before sending the next ping
 
 # MongoDB setup
 tclient = AsyncIOMotorClient(MONGO_DB)
